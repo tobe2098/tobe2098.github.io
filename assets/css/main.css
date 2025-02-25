@@ -235,6 +235,7 @@ input, select, textarea {
 		text-align: right;
 	}
 
+
 /* Loader */
 
 	@-moz-keyframes spinner-show {
@@ -2557,13 +2558,28 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			/* width: 50%; */
+			/* height: 200% */
 		}
 
 			.image.fit img {
-				width: 100%;
+				width: 1500px;
+    			height: 100px; /* Maintains aspect ratio */
 			}
-
+	.profile-photo {
+		width: 200px; /* Adjust size as needed */
+		height: 200px;
+		border-radius: 50%; /* Creates the circular effect */
+		object-fit: cover; /* Ensures the square image fills the circle nicely */
+		object-position: 0px -20px;
+		border: 3px solid #333; /* Optional: adds a border, change color as needed */
+	}
+	
+	.profile-container {
+		display: flex;
+		justify-content: center; /* Center horizontally if needed */
+		margin: 20px 0; /* Add spacing as needed */
+	}
 /* List */
 
 	ol {
@@ -3368,7 +3384,24 @@ input, select, textarea {
 	}
 
 /* Header */
+	#logo {
+		display: flex;
+		align-items: center;
+		margin: 0;
+		padding: 0;
+	}
 
+	#logo img {
+		height: 40px; /* Adjust this value to scale your logo */
+		width: auto; /* Maintains aspect ratio */
+		margin-right: 10px; /* Space between logo and text */
+	}
+
+	#logo .logo-text {
+		font-size: 1.5rem; /* Adjust text size as needed */
+		font-weight: bold;
+		color: #333; /* Change to match your color scheme */
+	}
 	#page-wrapper {
 		padding-top: 3.5em;
 	}
@@ -4108,4 +4141,8 @@ input, select, textarea {
 						padding: 0;
 					}
 
+	}
+	svg {
+		position: relative; /* Aligns it properly within inline elements */
+		top: 3px;
 	}
