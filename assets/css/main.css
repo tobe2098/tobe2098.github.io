@@ -73,7 +73,24 @@ input, select, textarea {
 }
 
 /* Basic */
+#logo {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
 
+#logo img {
+	height: 40px; /* Adjust this value to scale your logo */
+	width: auto; /* Maintains aspect ratio */
+	margin-right: 10px; /* Space between logo and text */
+}
+
+#logo .logo-text {
+	font-size: 1.5rem; /* Adjust text size as needed */
+	font-weight: bold;
+	color: #333; /* Change to match your color scheme */
+}
 	html {
 		box-sizing: border-box;
 	}
@@ -3385,24 +3402,7 @@ input, select, textarea {
 	}
 
 /* Header */
-	#logo {
-		display: flex;
-		align-items: center;
-		margin: 0;
-		padding: 0;
-	}
 
-	#logo img {
-		height: 40px; /* Adjust this value to scale your logo */
-		width: auto; /* Maintains aspect ratio */
-		margin-right: 10px; /* Space between logo and text */
-	}
-
-	#logo .logo-text {
-		font-size: 1.5rem; /* Adjust text size as needed */
-		font-weight: bold;
-		color: #333; /* Change to match your color scheme */
-	}
 	#page-wrapper {
 		padding-top: 3.5em;
 	}
