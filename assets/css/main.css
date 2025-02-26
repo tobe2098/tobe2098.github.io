@@ -78,18 +78,22 @@ input, select, textarea {
 	align-items: center;
 	margin: 0;
 	padding: 0;
+	/* max-width: 100%; */
 }
 
 #logo img {
+	/* max-height: 40px; Adjust this value to scale your logo */
 	height: 40px; /* Adjust this value to scale your logo */
 	width: auto; /* Maintains aspect ratio */
 	margin-right: 10px; /* Space between logo and text */
+	/* max-width: 25%; */
 }
 
 #logo .logo-text {
-	font-size: 1.5rem; /* Adjust text size as needed */
+	font-size: 1rem; /* Adjust text size as needed */
 	font-weight: bold;
-	color: #333; /* Change to match your color scheme */
+	color: #ffffff; /* Change to match your color scheme */
+	/* white-space: nowrap;  */
 }
 	html {
 		box-sizing: border-box;
@@ -1676,7 +1680,17 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-
+			#logo{
+				justify-content: center; /* Center the logo on mobile */
+				display: none !important; 
+			}
+			#logo img {
+				height: 10px;
+			}
+			
+			#logo .logo-text {
+				font-size: 1.1rem;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -3623,27 +3637,7 @@ input, select, textarea {
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
-		#logo {
-			display: none;
-		}
-		 /* #logo {
-			display: flex;
-			align-items: center;
-			margin: 0;
-			padding: 0;
-		} */
 	
-		#logo img {
-			height: 40px; /* Adjust this value to scale your logo */
-			width: auto; /* Maintains aspect ratio */
-			margin-right: 10px; /* Space between logo and text */
-		}
-	
-		#logo .logo-text {
-			font-size: 1.5rem; /* Adjust text size as needed */
-			font-weight: bold;
-			color: #333; /* Change to match your color scheme */
-		} */
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3655,9 +3649,7 @@ input, select, textarea {
 /* Large */
 
 	@media screen and (max-width: 1280px) {
-		#logo {
-			display: none;
-		}
+
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3708,9 +3700,6 @@ input, select, textarea {
 /* Medium */
 
 	@media screen and (max-width: 980px) {
-		#logo {
-			display: none;
-		}
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3808,12 +3797,23 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 736px) {
-		#logo {
-			display: none;
-		}
-	
 		/* Basic */
-
+		.title {
+			display: flex;  /* Enables flexbox */
+			align-items: center;  /* Aligns items vertically */
+			gap: 10px;  /* Adds spacing between image and text */
+		}
+		
+		.title img {
+			width: 30px; /* Adjust size as needed */
+			height: auto;
+		}
+/* 		
+		.logo-text {
+			font-size: 2rem;
+			vertical-align: top;
+		} */
+		
 			html, body {
 				overflow-x: hidden;
 			}
@@ -3965,6 +3965,7 @@ input, select, textarea {
 						color: inherit;
 						border: 0;
 					}
+					
 
 				#titleBar .toggle {
 					text-decoration: none;
@@ -4110,9 +4111,6 @@ input, select, textarea {
 /* XSmall */
 
 	@media screen and (max-width: 480px) {
-		#logo{
-			display: none;
-		}
 		/* Basic */
 
 			html, body {
