@@ -3624,11 +3624,14 @@ input, select, textarea {
 
 	@media screen and (max-width: 1680px) {
 		#logo {
+			display: none;
+		}
+		 /* #logo {
 			display: flex;
 			align-items: center;
 			margin: 0;
 			padding: 0;
-		}
+		} */
 	
 		#logo img {
 			height: 40px; /* Adjust this value to scale your logo */
@@ -3640,7 +3643,7 @@ input, select, textarea {
 			font-size: 1.5rem; /* Adjust text size as needed */
 			font-weight: bold;
 			color: #333; /* Change to match your color scheme */
-		}
+		} */
 		/* Basic */
 
 			body, input, select, textarea {
