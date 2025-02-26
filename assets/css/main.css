@@ -90,9 +90,9 @@ input, select, textarea {
 }
 
 #logo .logo-text {
-	font-size: 1rem; /* Adjust text size as needed */
+	font-size: 2rem; /* Adjust text size as needed */
 	font-weight: bold;
-	color: #ffffff; /* Change to match your color scheme */
+	color: #555; /* Change to match your color scheme */
 	/* white-space: nowrap;  */
 }
 	html {
@@ -1680,17 +1680,8 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
-			#logo{
-				justify-content: center; /* Center the logo on mobile */
-				display: none !important; 
-			}
-			#logo img {
-				height: 10px;
-			}
 			
-			#logo .logo-text {
-				font-size: 1.1rem;
-			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -3805,14 +3796,19 @@ input, select, textarea {
 		}
 		
 		.title img {
-			width: 30px; /* Adjust size as needed */
+			width: 25px; /* Adjust size as needed */
 			height: auto;
+			position: relative;
+			top: 6px;
 		}
-/* 		
+		
 		.logo-text {
-			font-size: 2rem;
-			vertical-align: top;
-		} */
+			font-size: 1.5rem;
+			position: relative;
+			top: -2px;
+			color: #555;
+
+		}
 		
 			html, body {
 				overflow-x: hidden;
