@@ -3623,7 +3623,24 @@ input, select, textarea {
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
-
+		#logo {
+			display: flex;
+			align-items: center;
+			margin: 0;
+			padding: 0;
+		}
+	
+		#logo img {
+			height: 40px; /* Adjust this value to scale your logo */
+			width: auto; /* Maintains aspect ratio */
+			margin-right: 10px; /* Space between logo and text */
+		}
+	
+		#logo .logo-text {
+			font-size: 1.5rem; /* Adjust text size as needed */
+			font-weight: bold;
+			color: #333; /* Change to match your color scheme */
+		}
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3784,7 +3801,10 @@ input, select, textarea {
 	}
 
 	@media screen and (max-width: 736px) {
-
+		#logo {
+			display: none;
+		}
+	
 		/* Basic */
 
 			html, body {
