@@ -95,6 +95,12 @@ input, select, textarea {
 	color: #555; /* Change to match your color scheme */
 	/* white-space: nowrap;  */
 }
+#logo .logo-link {
+    display: flex;  /* Make the link behave like a flex container */
+    align-items: center; /* Aligns image and text properly */
+    text-decoration: none; /* Removes link styling */
+    color: inherit; /* Keeps text color */
+}
 	html {
 		box-sizing: border-box;
 	}
@@ -4128,6 +4134,7 @@ input, select, textarea {
 			color: #555;
 
 		}
+		
 			html, body {
 				min-width: 320px;
 			}
