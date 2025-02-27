@@ -92,6 +92,9 @@ input, select, textarea {
 #logo .logo-text {
 	font-size: 2rem; /* Adjust text size as needed */
 	font-weight: bold;
+	font-family: 'Courier New', monospace; /* Change to your desired font */
+	/* font-family: "Lucida Console", sans-serif; */
+    font-weight: bold; /* Adjust thickness */
 	color: #555; /* Change to match your color scheme */
 	/* white-space: nowrap;  */
 }
@@ -2945,6 +2948,8 @@ input, select, textarea {
 			background-color: #e44c65;
 			box-shadow: none;
 			color: #000000 !important;
+			font-family: 'Courier New', monospace; 
+			font-weight: 600;
 			/* color: #ffffff !important; */
 		}
 
@@ -4195,4 +4200,9 @@ input, select, textarea {
 	svg {
 		position: relative; /* Aligns it properly within inline elements */
 		top: 3px;
+	}
+	.header-link{
+		font-family: 'Courier New', monospace; 
+		font-size: 20px;
+		/* font-weight: 600; */
 	}
