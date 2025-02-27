@@ -15,48 +15,63 @@
 	<body class="is-preload">
 		<div id="page-wrapper">
 			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="index.html">Landed</a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li>
-								<a href="#">Layouts</a>
-								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option 1</a></li>
-											<li><a href="#">Option 2</a></li>
-											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="elements.html">Elements</a></li>
-							<li><a href="#" class="button primary">Sign Up</a></li>
-						</ul>
-					</nav>
-				</header>
+            <header id="header">
+                <!-- <h1 id="logo-sub"> -->
+                <h1 id="logo">
+                    <a href="index.html" class="logo-link" alt="Main">
+                    <img src="./assets/images/minimalistic book.png" alt="Your Name Logo">
+                    <span class="logo-text">ABM</span>
+                    </a>
+                    <!-- <a href="index.html">Landed</a> -->
+                </h1>
+                <!-- <div class="logo">
+                    <img src="path/to/logo-image.png" alt="Your Name Logo">
+                    <span class="logo-text">Your Name</span>
+                </div> -->
+                <nav id="nav">
+                    <ul>
+                        <li><a href="index.html" class="header-link">Main</a></li>
+                        <li><a href="portfolio.html" class="header-link">Portfolio</a></li>
+                        <li><a href="./assets/partial_cv.pdf" target="_blank" class="header-link">C.V.</a></li>
+                        <!-- <li>
+                            <a href="#">Layouts</a>
+                            <ul>
+                                
+                                <li><a href="right-sidebar.html">Right Sidebar</a></li>
+                                <li><a href="no-sidebar.html">No Sidebar</a></li>
+                                <li>
+                                    <a href="#">Submenu</a>
+                                    <ul>
+                                        <li><a href="#">Option 1</a></li>
+                                        <li><a href="#">Option 2</a></li>
+                                        <li><a href="#">Option 3</a></li>
+                                        <li><a href="#">Option 4</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li> -->
+                        <!-- <li><a href="elements.html">Elements</a></li> -->
+                        <li><a href="https://astoritella.substack.com/" target="_blank" class="button primary">Substack</a></li>
+                    </ul>
+                </nav>
+            </header>
 
 			<!-- Main -->
 				<div id="main" class="wrapper style1">
 					<div class="container">
 						<header class="major">
-							<h2>Right Sidebar</h2>
-							<p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p>
+							<h2 style="font-family: 'Courier New', monospace; font-size: 35px;font-weight: 600;">Project portfolio</h2>
+							<p style="font-family: 'Courier New', monospace; font-size: 24px; font-style: italic;">A small collection of simulators, emulators and libraries</p>
 						</header>
 						<div class="row gtr-150">
 							<div class="col-8 col-12-medium">
 
 								<!-- Content -->
 									<section id="content">
-										<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-										<h3>Dolore Amet Consequat</h3>
+										<a class="image fit"><img src="./assets/images/pic06.jpg" alt="" /></a>
+										<h3>
+                                            Dolore Amet Consequat
+                                        </h3>
 										<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
 										<p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique.</p>
 										<h3>Sed Magna Ornare</h3>
@@ -76,17 +91,19 @@
 								<!-- Sidebar -->
 									<section id="sidebar">
 										<section>
-											<h3>Magna Feugiat</h3>
-											<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
+											<h3>C mutex interface library</h3>
+											<p>
+                                                A small header-only library in C with Rust-like mutex macros and other quality-of-life features in the usage of mutexes, for the POSIX threading API.
+                                            </p>
 											<footer>
 												<ul class="actions">
-													<li><a href="#" class="button">Learn More</a></li>
+													<li><a href="https://github.com/tobe2098/c_the_mutex" class="button">Learn More</a></li>
 												</ul>
 											</footer>
 										</section>
 										<hr />
 										<section>
-											<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+											<a class="image fit"><img src="./assets/images/pic07.jpg" alt="" /></a>
 											<h3>Amet Lorem Tempus</h3>
 											<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
 											<footer>
@@ -103,19 +120,30 @@
 				</div>
 
 			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
+            <footer id="footer">
+                <ul class="icons">
+                    <!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+                    <!-- <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+                    <li><a href="www.linkedin.com/in/antoni-bertolin-monferrer-385897152" class="icon brands alt fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+                    <li>
+                        <a href="https://leetcode.com/u/tobe2098/" class ="icon solid" target="_blank">
+                            <svg role="img" viewBox="2 -5 20 30" xmlns="http://www.w3.org/2000/svg" width="28" height="38">
+                                <!-- <title>LeetCode</title> -->
+                                <path fill="none" stroke="#A0A1A5" stroke-width="0.9" d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+                            </svg>
+                            <span class="label">LeetCode</span>
+                        </a>
+                    
+                    </li>
+                    <li><a href="https://github.com/tobe2098" class="icon brands alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+                    <li>
+                        <a href="mailto:antoni.bertolin@gmail.com" class="icon solid alt fa-envelope" target="_blank"><span class="label">Email</span></a>
+                    </li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; 2025 Antoni Bertolin Monferrer. All rights reserved.</li><li>Template design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </footer>
 
 		</div>
 
