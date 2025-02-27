@@ -2226,6 +2226,11 @@ input, select, textarea {
 			width: 75%;
 		}
 
+	header.minor{
+		margin: 0 0 4em 0;
+		position: relative;
+		text-align: center;
+	}
 	footer.major {
 		margin: 4em 0 0 0;
 	}
