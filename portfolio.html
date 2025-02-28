@@ -19,7 +19,7 @@
                 <!-- <h1 id="logo-sub"> -->
                 <h1 id="logo">
                     <a href="index.html" class="logo-link" alt="Main">
-                    <img src="./assets/images/minimalistic book.png" alt="Your Name Logo">
+                        <img src="./assets/icons/new_bowling.gif" alt="Your Name Logo">
                     <span class="logo-text">ABM</span>
                     </a>
                     <!-- <a href="index.html">Landed</a> -->
@@ -32,7 +32,8 @@
                     <ul>
                         <li><a href="index.html" class="header-link">Main</a></li>
                         <li><a href="portfolio.html" class="header-link">Portfolio</a></li>
-                        <li><a href="./assets/partial_cv.pdf" target="_blank" class="header-link">C.V.</a></li>
+                        <li><a href="./assets/partial_cv.pdf" target="_blank" class="button primary icon solid fa-download">C.V.</a></li>
+                        <!-- <li><a href="#" class="button primary icon solid fa-download">C.V.</a></li> -->
                         <!-- <li>
                             <a href="#">Layouts</a>
                             <ul>
@@ -51,7 +52,7 @@
                             </ul>
                         </li> -->
                         <!-- <li><a href="elements.html">Elements</a></li> -->
-                        <li><a href="https://astoritella.substack.com/" target="_blank" class="button primary">Substack</a></li>
+                        <li><a href="https://astoritella.substack.com/" target="_blank" class="button primary icon solid fa-share-square">Substack</a></li>
                     </ul>
                 </nav>
             </header>
@@ -69,20 +70,69 @@
 								<!-- Content -->
 									<section id="content">
 										<a class="image fit"><img src="./assets/images/pic06.jpg" alt="" /></a>
-										<h3>
-                                            Dolore Amet Consequat
+										<h3 class="project-header">
+                                            TchuSNNet
                                         </h3>
-										<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at magna consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
-										<p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique.</p>
-										<h3>Sed Magna Ornare</h3>
-										<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus.</p>
-										<ul>
-											<li>Faucibus orci lobortis ac adipiscing integer.</li>
-											<li>Col accumsan arcu mi aliquet placerat.</li>
-											<li>Lobortis vestibulum ut magna tempor massa nascetur.</li>
-											<li>Blandit massa non blandit tempor interdum.</li>
-											<li>Lacinia mattis arcu nascetur lobortis.</li>
-										</ul>
+                                        <p></p>
+                                        <div class="table-wrapper">
+                                            <table class="alt">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Name</th>
+                                                        <th>Description</th>
+                                                        <th>Price</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Item 1</td>
+                                                        <td>Ante turpis integer aliquet porttitor.</td>
+                                                        <td>29.99</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Item 2</td>
+                                                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                                        <td>19.99</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Item 3</td>
+                                                        <td> Morbi faucibus arcu accumsan lorem.</td>
+                                                        <td>29.99</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Item 4</td>
+                                                        <td>Vitae integer tempus condimentum.</td>
+                                                        <td>19.99</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Item 5</td>
+                                                        <td>Ante turpis integer aliquet porttitor.</td>
+                                                        <td>29.99</td>
+                                                    </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                    <tr>
+                                                        <td colspan="2"></td>
+                                                        <td>100.00</td>
+                                                    </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                        <footer>
+                                            <ul class="actions">
+                                                <li><a href="https://github.com/CompNeuroTchuGroup/TchuSNNet/tree/master" class="button" target="_blank">Repository</a></li>
+                                            </ul>
+                                        </footer>
+										<hr />
+										<h3 class="project-header">
+                                            denigma
+                                        </h3>
+                                        <p></p>
+                                        <footer>
+                                            <ul class="actions">
+                                                <li><a href="https://github.com/tobe2098/denigma" class="button" target="_blank">Repository</a></li>
+                                            </ul>
+                                        </footer>
 									</section>
 
 							</div>
@@ -91,24 +141,35 @@
 								<!-- Sidebar -->
 									<section id="sidebar">
 										<section>
-											<h3>C mutex interface library</h3>
+											<h3 class="project-header">c_the_mutex</h3>
 											<p>
                                                 A small header-only library in C with Rust-like mutex macros and other quality-of-life features in the usage of mutexes, for the POSIX threading API.
                                             </p>
 											<footer>
 												<ul class="actions">
-													<li><a href="https://github.com/tobe2098/c_the_mutex" class="button">Learn More</a></li>
+													<li><a href="https://github.com/tobe2098/c_the_mutex" class="button" target="_blank">Repository</a></li>
 												</ul>
 											</footer>
 										</section>
 										<hr />
 										<section>
 											<a class="image fit"><img src="./assets/images/pic07.jpg" alt="" /></a>
-											<h3>Amet Lorem Tempus</h3>
-											<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-											<footer>
+											<h3 class="project-header">aberlloc</h3>
+                                            <p>A library featuring different memory allocators in C to allow the user more variety and control over their over their memory management strategies, performance optimization, and resource utilization across diverse application requirements and hardware constraints.</p>
+                                            <footer>
 												<ul class="actions">
-													<li><a href="#" class="button">Learn More</a></li>
+													<li><a href="https://github.com/tobe2098/aberlloc" class="button" target="_blank">Repository</a></li>
+												</ul>
+											</footer>
+										</section>
+                                        <hr />
+										<section>
+											<a class="image fit"><img src="./assets/images/pic07.jpg" alt="" /></a>
+											<h3 class="project-header">JaipurEmulator</h3>
+                                            <p>A CLI emulator and dynamic library in C with a Julia API for the game of Jaipur.</p>
+                                            <footer>
+												<ul class="actions">
+													<li><a href="https://github.com/tobe2098/JaipurEmulator" class="button" target="_blank">Repository</a></li>
 												</ul>
 											</footer>
 										</section>
@@ -141,7 +202,7 @@
                     </li>
                 </ul>
                 <ul class="copyright">
-                    <li>&copy; 2025 Antoni Bertolin Monferrer. All rights reserved.</li><li>Template design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    <li>&copy; 2025 Antoni Bertolin Monferrer. All rights reserved.</li><li>Template design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
                 </ul>
             </footer>
 
