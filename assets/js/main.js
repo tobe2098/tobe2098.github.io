@@ -261,3 +261,4 @@ document.addEventListener("DOMContentLoaded", function() {
 	  document.getElementById("portfolio-link").classList.add("active");
 	}
 });
+document.getElementById("year").textContent = new Date().getFullYear();
