@@ -248,3 +248,16 @@
 			._parallax();
 
 })(jQuery);
+
+// In your scripts.js file
+document.addEventListener("DOMContentLoaded", function() {
+	// Get current page filename
+	const currentPage = window.location.pathname.split("/").pop();
+	
+	// Set active class based on current page
+	if (currentPage === "index.html" || currentPage === "") {
+	  document.getElementById("main-link").classList.add("active");
+	} else if (currentPage === "portfolio.html") {
+	  document.getElementById("portfolio-link").classList.add("active");
+	}
+});

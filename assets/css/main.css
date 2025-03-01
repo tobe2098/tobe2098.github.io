@@ -4206,14 +4206,28 @@ input, select, textarea {
 		position: relative; /* Aligns it properly within inline elements */
 		top: 3px;
 	}
-	.header-link{
-		font-family: 'Courier New', monospace; 
-		font-size: 20px;
-		/* font-weight: 600; */
-	}
+
 	.project-header{
 		
 		font-family: 'Courier New', monospace; 
 		font-size: 28px;
 		font-weight: 600;
 	}
+	.header-link{
+		font-family: 'Courier New', monospace; 
+		font-size: 20px;
+		/* font-weight: 600; */
+	}
+	li a.header-link:hover {
+		/* Your hover styles, for example: */
+		color: #e44c65 !important;
+		/* text-decoration: underline; */
+	  }
+	  
+	  /* Active page style - same as hover */
+	  li a.header-link.active {
+		color: #e44c65 !important;
+		text-decoration: underline;
+		cursor: default; /* Shows default cursor instead of pointer */
+		pointer-events: none; /* Disables the link */
+	  }
