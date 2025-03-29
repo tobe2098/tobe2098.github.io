@@ -4213,6 +4213,12 @@ input, select, textarea {
 		font-size: 28px;
 		font-weight: 600;
 	}
+	.project-language{
+		font-family: 'Courier New', monospace; 
+		font-size: 20px;
+		font-weight: 400;
+		font-style: italic;
+	}
 	.header-link{
 		font-family: 'Courier New', monospace; 
 		font-size: 20px;
